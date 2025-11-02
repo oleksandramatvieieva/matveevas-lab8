@@ -1,0 +1,26 @@
+:root{
+--brand: #0d6efd; /* bootstrap primary */
+}
+body{
+font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+background: #f8f9fa;
+padding-top: 70px; /* місце для фіксованої навігації */
+}
+.navbar-brand{ font-weight:600; }
+.sidebar{ min-height: 50vh; }
+.card{ box-shadow: 0 2px 6px rgba(0,0,0,0.03); }
+footer{ position: relative; }
+
+
+/* Мобільні покращення */
+@media (max-width: 575.98px){
+.lead{ font-size: 0.95rem; }
+}
+
+
+/* Стилі для звіту всередині сторінки */
+.report-note{ font-size: 0.95rem; color:#555; }
+
+.login {
+	text-align: center;
+}
